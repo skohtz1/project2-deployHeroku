@@ -2,7 +2,7 @@ from flask import Flask, render_template, jsonify, redirect
 import pandas as pd
 import pymongo
 
-from passwords import password, user
+#from passwords import password, user
 
 
 
