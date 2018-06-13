@@ -12,7 +12,7 @@ from passwords import password, user
 # DB_User = ""
 # DB_PASS = ""
 
-conn = "mongodb://"+user+":"+password+"@ds153198.mlab.com:53198/college_data"
+conn = "mongodb://gizmo1:1000FishButts@ds153198.mlab.com:53198/college_data"
 client = pymongo.MongoClient(conn)
 db = client.college_data
 
